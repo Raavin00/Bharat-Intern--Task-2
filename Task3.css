@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #253040;
+  color: #ffffff;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#header h1 {
+  color: #ff6f61;
+  font-size: 2.8em;
+  margin: 0;
+}
+
+#main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #354a52;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-group input[type="text"] {
+  border: 2px solid #1fcf7d;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #2f4a56;
+  color: #ffffff;
+}
+
+.input-group button {
+  cursor: pointer;
+  border: none;
+  background-color: #1fcf7d;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.input-group button:hover {
+  background-color: #18a165;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.custom-select {
+  width: 200px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table, th, td {
+  border: 2px solid #354a52;
+  color: white;
+}
+
+th {
+  background-color: #ffa41b;
+  color: #2f4a56;
+  padding: 1rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+.custom-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+}
+
+.custom-btn-primary {
+  background-color: #1fcf7d;
+  color: #ffffff;
+}
+
+.custom-btn-danger {
+  background-color: #ff6f61;
+  color: #ffffff;
+}
+
+.custom-btn-action {
+  background-color: #ffa41b;
+  color: #354a52;
+}
+
+.custom-btn-outline-secondary {
+  background-color: transparent;
+  border: 2px solid #1fcf7d;
+  color: #1fcf7d;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn-outline-secondary:hover {
+  background-color: #18a165;
+}
+
+.custom-close:hover {
+  color: #ff6f61;
+}
